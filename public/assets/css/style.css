@@ -1,0 +1,322 @@
+/* importacao  das fontes do google fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One|Architects+Daughter|Roboto|Domine');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+
+
+
+.img-slide {
+    filter: brightness(50%);
+}
+
+/* Menu*/
+
+.logo {
+    width: 220px;
+    margin-left: 15px;
+    filter: drop-shadow(15px 0px 6px #999999);
+}
+
+.navbar {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.973)!important;
+    padding: 0px;
+    filter: drop-shadow(5px 5px 9px #696969b2);
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.nav-links {
+    font-size: 22px;
+    padding: 1px;
+    margin: 3px!important;
+    margin: 30px 5px 5px 5px!important;
+    color: rgb(0, 0, 0)!important;
+    /*font-family: 'Oswald', sans-serif;*/
+    font-family: 'Architects Daughter', cursive;
+    border-bottom: 3px solid transparent;
+}
+
+.nav-links:hover {
+    
+    color: rgb(105, 104, 104)!important;
+    border-bottom: 3px solid red;
+    color: rgb(19, 18, 18)!important;
+   
+}
+
+.bandeiras {
+    display: block;
+    margin-right: 15px;
+}
+
+.bandeira-link {
+    display: block;
+}
+
+.img-bandeira {
+    width: 20px;
+}
+
+/*fim de menu*/
+/*efeitos no carrocel*/
+
+.carousel-caption {
+    bottom: 20%;
+   /* background-image: radial-gradient(circle, rgba(0, 0, 0, 0.726), rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0));*/
+    padding: 50px;
+}
+
+.carousel-caption h5 {
+    font-size: 60px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    border: 3px solid #fff;
+  
+}
+.carousel-caption p {
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+.nav-pills {
+    margin: 0 auto!important;
+    margin-bottom: 10px;
+    /*transform: skew(-25deg);*/
+}
+
+/* Caroucel com imagem 100% da tela*/
+
+html, body {
+    height: 100%;
+    background-color: rgb(247, 247, 247);
+}
+.carousel, .item, .active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.empresa-titulo{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.titulo{
+    color: rgb(117, 0, 0);
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+.titulo-segundo{
+    color: rgb(117, 0, 0);
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/* fim de Caroucel com imagem 100% da tela*/
+.slide-img{
+    filter: brightness(50%);
+}
+
+.empresa{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding: 15px;
+    border-radius: 9px;
+    text-align: justify; 
+}
+.descricao{
+    font-size: 18px;
+    line-height: 2;
+    padding: 0px 30px;
+    color: #242424;
+    background-color: #fff;
+    
+}
+
+/*.sombra{
+    box-shadow: 4px 4px 4px 5px rgb(235, 235, 235); border-radius: 9px;
+}*/
+.servico{
+    background-color: #fff;
+    padding-left: 0px;
+    
+}
+.servico-img{
+    width: 100%;
+    padding: 10px;
+}
+.servico-texto{
+    font-size: 18px;
+    
+    padding: 5px;
+    line-height: 2;
+    text-align: justify;
+    color: #464646;
+}
+
+/* paralax*/
+.paralax {
+    width: 100%;
+    background-image: url('../img/paralax.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.pelicula {
+    width: 100%;
+    background-color: rgba(2, 2, 2, 0.342);
+    height: 300px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    padding: 120px;
+}
+/*equipa*/
+.pessoa {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.card {
+    border: none;
+}
+
+.card-img-top {
+    border-radius: 100%!important;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+
+/*rodape*/
+.footer{
+    color: white;
+    text-align: center;
+    padding-top: 80px;
+    margin-top: -7px;
+    background-color: rgb(36, 36, 36);
+}
+.footer-titulo{
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+.footer-descricao{
+    font-size: 15px;
+    text-align: justify;
+}
+.margem{
+    margin-right: 10px;
+}
+.copy{
+    padding: 10px;
+}
+.contatos{
+    margin-bottom: 100px;
+}
+
+/*benner*/
+.banner{
+    width: 100%;
+    margin-bottom: 80px;
+}
+.banner-text{
+    color: rgb(117, 0, 0);
+    background-color: #fff!important;
+    padding: 5px;
+    font-size: 45px;
+    text-align: center;
+    margin-top: -200px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+/*contato*/
+.formulario{
+    height: 50px;
+    margin-bottom: 20px;
+    border-left: 2px solid rgb(117, 0, 0);
+    border-bottom: 2px solid rgb(117, 0, 0);
+}
+
+.formulario:hover{
+    border-bottom: none;
+}
+.img-modal{
+    width: 100%;
+}
+.botao-enviar{
+    float: left;
+    border: 2px solid rgb(117, 0, 0);
+    padding: 7px;
+    background-color: rgb(117, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.botao-enviar:hover{
+    float: left;
+    border: 2px solid rgb(117, 0, 0);
+    padding: 7px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(70, 70, 70);
+}
+
+.i-cor{
+    color: rgb(117, 0, 0);;
+}
+
+.sa{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.frota{
+    width: 100%;
+    border-radius: 3px;
+    padding: 5px;
+   
+}
+
+.galeria-img{
+    width: 100%;
+}
+
+.team{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.branco{
+    background-color: #fff;
+    padding: 10px;
+}
+.titulo-transfer{
+    color: rgb(117, 0, 0);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+}
+.transfer{
+  font-size: 20px !important;
+  color: #750000;
+  transform: none!important;
+}
+.transfer:hover{
+    font-style: normal !important;
+    color: balck;
+  }
+  .opcao{
+    font-size: 20px;
+
+  }
+
+.nav-link.active{
+    background-color: #750000!important;
+}
